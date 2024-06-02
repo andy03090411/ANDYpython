@@ -3,7 +3,7 @@ def compare_value(x, y):
         return 1
     elif x == y:
         return 0
-    else:
+    else x < y :
         return -1
 print(compare_value(3, 5))
 print(compare_value(5, 5))
